@@ -1,0 +1,175 @@
+/* start with {col-xxl} bootstrap- break point upto 1400px */
+@media only screen and (min-width: 1401px)
+{
+ 
+
+    
+}
+
+/* start with {col-xl} bootstrap-break point */
+@media only screen and (min-width: 1200px) and (max-width: 1399px)
+{
+  
+}
+
+
+/* start with {col-lg}-bootstrap-breakpointlg 1025px to 1200px */
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+ 
+}
+
+/* start with {col-md} breakpoint ---- 769px to 1024px bs-991px*/
+@media only screen and (min-width: 769px) and (max-width: 991px) 
+{
+   
+  
+
+}
+
+/* start with {col-sm} breakpoints  iPads, Tablets small devices */
+@media only screen and (min-width: 577px) and (max-width: 768px)
+{
+
+
+}
+
+
+/* Mobile devices x-small */
+@media only screen and (max-width: 576px)
+{
+/* HEADING START */
+.top-logo-container{
+  display: flex;
+  justify-content: center;
+  background-color: #008170;
+}
+
+.logo img{
+  max-width: 150px;
+  height: auto;
+}
+
+.school_name{
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.5;
+ }
+
+.school_name h1{
+  font-size: 0.950rem;
+  font-weight: 400;
+}
+.school_name h2{
+  font-size: 1rem;
+}
+
+.school_name h3{
+  font-size: 1rem;
+}
+
+.school_identity{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.school_identity p{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.mujib-logo-container{
+  justify-content: center;
+}
+
+.fifty-years-logo{
+  border: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.fifty-years-logo img{
+  max-width: 60%;
+  height: auto;
+}
+/* HEADING END */
+
+/* SCROLLING NOTICE START */
+.top-notice-section{
+  margin: 0.125rem 0;
+}
+
+.notice-title h5{
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+
+/* home sliding  */
+.swiper-slide img {
+  height: 250px;
+  
+}
+
+
+/* footer logo container */
+footer-logo-container{
+  margin-top: 0.5rem;
+}
+
+.footer-logo-container .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0rem;
+}
+
+.footer-partOne-text{
+  font-size: 1rem;
+  text-align: center;
+}
+
+.social-link-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.footer-partSecound-text,
+.footer-partThird-text{
+  margin-top: 2rem;
+  text-align: center;
+  color: yellow !important;
+}
+
+.emergency-link,
+.school-location{
+  margin-top: 2rem;
+}
+
+.school-location{
+  display: flex;
+  justify-content: center;
+}
+
+.school-location iframe{
+  width: 100%;
+}
+
+.bottom-footer-start,
+.bottom-footer-center,
+.bottom-footer-end{
+  padding: 0.4rem 0;
+}
+
+
+
+     
+}

@@ -1,0 +1,736 @@
+/************ START MAIN WRAPPER *************************/
+:root{
+  --primary-color: #008170; /* deep green color code #056608*/
+  --secondary-color: #D9E9E5;
+  --sectionBgOne: #f2eeee;
+  --footerBottombg: #045607;
+  --cardtitleColor: #049F17;
+}
+
+
+@font-face {
+  font-family: 'solaimanlipi';
+  src: url(../fonts/solaimanlipi.ttf) format("truetype");
+}
+
+.custom-bg-color{
+  background-color: var(--primary-color);
+}
+/*************  END UTILITIES ***************************/
+
+body {
+  font-family: 'solaimanlipi', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/************ START MAIN WRAPPER **************/
+
+
+/************ END MAIN WRAPPER ***************/
+
+/************ START HEADER SECTION ************/
+.school_header_bg{
+  background-image: url(../assets/images/logo/school_header_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: 10% 40%;
+}
+
+.top-logo-container{
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+
+.school_name{
+ margin-top: 1rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ line-height: 3rem;
+}
+
+.school_name h1{
+  color: #ffff00;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.school_name h2{
+  color: #ffff00;
+  font-size: 1.5rem;
+}
+
+.school_name h3{
+  color: #11fc05;
+  font-size: 1.5rem;
+}
+
+.school_identity{
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  
+}
+
+.school_identity p{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.mujib-logo-container{
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.fifty-years-logo{
+  border: 1px solid #000;
+  height: 100% !important;
+}
+
+/***************  END HEADER SECTION **************/
+
+
+
+/***************** START NAVIGATION SECTION **************/
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.nav-item .nav-link{
+  color: #fff;
+  padding: 10px 25px !important;
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+.dropdown-menu li a{
+  padding: 10px 5px !important;
+
+}
+
+.dropdown-menu li a:hover{
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+
+/************** END NAVIGATION SECTION ****************/
+
+/************** START NOTICE SCROLING ****************/
+.top-notice-section{
+  margin: 0.5rem 0;
+}
+
+.notice-bg-color{
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notice-title h5{
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.notice-scrolling {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0.56rem 0;
+  border-block: 3px solid var(--primary-color);  
+}
+
+.notice-scrolling a{
+  text-decoration: none;
+  color: maroon;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
+
+.notice-scrolling a:hover{
+  text-decoration: underline;
+  color: black;
+
+}
+
+/* START SLIDE SHOW */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 580px;
+  object-fit: cover;
+  object-position: 0% 35%;
+}
+
+/* END SLIDE SHOW */
+
+
+
+
+/************** END NOTICE SCROLING SECTION ****************/
+
+/**************** START MAIN SECTION ******************/
+/* SCHOOL ABOUT SECTION */
+.about-school{
+  display: flex;
+  text-align: justify;
+  line-height: 1.7;
+  align-items: center;
+  min-height: 100%;
+}
+
+.about-school p{
+  font-size: 1.1rem; 
+}
+
+.school-img-section img{
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.school-img-section img:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* President speech and head master speech */
+.profile-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-title{
+  min-width: 100%;
+  min-height: 50px;
+}
+
+.profile-title p{
+  padding: 1rem 0;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.profile-image{
+  width: 100%;
+}
+
+.profile-image img{
+  width: 50%;
+  max-height: 250px;
+  float: left;
+  padding: 0.125rem 0;
+  padding-right: 0.5rem;
+}
+
+
+.profile-image p{
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 1.5;
+  padding: 0.125rem 0;
+  /* padding-left: 0.5rem; */
+}
+
+/**************** RIGHT SIDE NOTICE --- MAIN SECTION  ******************/
+.main-section-notice .title{
+background-color: var(--primary-color);
+padding: 1rem 0;
+display: flex;
+justify-content: center;
+}
+
+.main-section-notice .title p{
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.main-section-notice .content{
+  background-color: rgba(210, 221, 225, 0.446);
+}
+
+
+.main-section-notice .content ul li{
+border-bottom: 1px solid #000;
+}
+
+
+.main-section-notice .content ul li a{
+  font-size: 1rem;
+  color: #000;
+  display: block;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+}
+
+.main-section-notice .content ul li:hover a{
+  background-color: rgba(198, 214, 221, 0.446);
+  font-weight: 600;
+  transition: 0.1s ease;
+}
+
+.main-section-notice .content ul li a i{
+  color: var(--primary-color)
+}
+
+/* EMERGENCY LINK START */
+.main-section-emergency-link .title{
+  background-color: var(--primary-color);
+padding: 1rem 0;
+display: flex;
+justify-content: center;
+}
+
+.main-section-emergency-link .title p{
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.main-section-emergency-link .content{
+  background-color: rgba(210, 221, 225, 0.446);
+}
+
+.main-section-emergency-link .content ul li{
+  /* border-bottom: 1px solid #000; */
+  margin: 1rem 0;
+  }
+  
+  
+.main-section-emergency-link .content ul li a{
+    font-size: 1rem;
+    color: #000;
+    display: block;
+    padding: 0.5rem 0.5rem;
+    cursor: pointer;
+  }
+  
+.main-section-emergency-link .content ul li:hover a{
+    background-color: rgba(198, 214, 221, 0.446);
+    font-weight: 600;
+    /* transition: all 0.2s ease; */
+    border-top: 1px solid #bcbaba;
+    border-bottom: 1px solid #bcbaba;
+  }
+  
+.main-section-emergency-link .content ul li a i{
+    color: var(--primary-color)
+}
+/* EMERGENCY LINK END */
+
+/* CALENDER START */
+.calendar-container {
+  width: 100%;
+  /* height: 100vh; */
+  background-color: #12121f;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar {
+  max-width: 100%;
+  height: auto;
+  background-color: #222227;
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+}
+
+.month {
+  max-width: 100%;
+  height: 6rem;
+  background-color: #167e56;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  text-align: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.month i {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.month h1 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.month p {
+  font-size: 1.1rem;
+}
+
+.weekdays {
+  width: 100%;
+  height: 3rem;
+  padding: 0 0.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.weekdays div {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  width: calc(100% / 7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.days {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.2rem;
+}
+
+.days div {
+  font-size: 1rem;
+  /* margin: 0.3rem; */
+  width: calc(100% / 7);
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  transition: background-color 0.2s;
+}
+
+.days div:hover:not(.today) {
+  background-color: #262626;
+  border: 0.2rem solid #777;
+  cursor: pointer;
+}
+
+.prev-date,
+.next-date {
+  opacity: 0.5;
+}
+
+.today {
+  background-color: #167e56;
+}
+
+/* CALENDER END */
+
+
+
+/* Card Design */
+.card{
+  
+}
+
+.card-title{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #b1adad;
+  padding: 1.3rem;
+}
+
+.card-title p{
+  font-size: 1.2rem;
+  color:var(--cardtitleColor);
+  font-weight: 600;
+}
+
+.card-body{
+  display: flex;
+}
+
+.card-image{
+  width: 40%;
+}
+
+.card-image img{
+  max-width: 100%;
+  height: auto;
+}
+
+.card-content{
+  width: 100%;
+  padding: 1rem;
+}
+
+.card-content .card-link ul{
+  margin: 0;
+  padding: 0;
+}
+
+
+.card-content .card-link ul li a{
+  color: #000;
+  display: block;
+  padding: 0.5rem 0;
+}
+
+.card-content .card-link ul li a i{
+  margin-right: 10px;
+}
+
+.card-content .card-link ul li:hover a{
+  color: var(--cardtitleColor);
+  cursor: pointer;
+  transition: 1s ease;
+}
+
+
+/* start photo galary */
+.photo-galary{
+  padding-top: 2rem;
+}
+.phpto-galary-title{
+  display: flex;
+  justify-content: center;
+}
+.phpto-galary-title h2{
+  font-size: 2.2rem;
+  padding: 1.5rem 0;;
+}
+
+.gallery-bg{
+  background-color: #141414;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1vh;
+  margin-inline: auto;
+  max-width: 80rem;
+  background: #141414;
+  padding: 1vh;
+}
+
+.gallery > img{
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.gallery:has(img:hover) img:not(:hover) {
+  scale: 0.8;
+  opacity: 0.5;
+  filter: grayscale(70%);
+}
+
+/* End photo galary */
+
+
+
+
+
+
+/************** START FOOTER SECTION **********************/
+/* TOP FOOTER START */
+.top-footer-section{
+  background-color: var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+
+.footer-logo-container{
+  margin-top: 2rem;
+}
+
+.footer-logo-container .logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* background-color: red; */
+  padding-left: 1rem;
+}
+
+.footer-logo-container .logo img {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.footer-partOne-text{
+  line-height: 1.5;
+  margin-top: 2.5rem;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+  font-weight: 500;
+}
+
+.footer-partSecound-text,
+.footer-partThird-text{
+  margin-top: 4.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* social link container start */
+.socialList{
+  list-style: none;
+  margin: 0;
+  padding: 0.8rem 0.8rem;
+  display: flex;
+  justify-content: flex-start;
+  /* justify-content: center; */
+  flex-flow: row wrap;
+}
+
+.socialList li{
+  margin: 5px;
+}
+
+
+.socialList li a{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  text-decoration: none;
+  background-color: #999;
+  color: #fff;
+  transition: .35s;
+}
+
+
+.socialList li:nth-child(1) a{
+  background-color: #135cb6;
+  font-size: 1.5rem;
+}
+
+.socialList li:nth-child(2) a{
+  background-color: #00aced;
+  font-size: 1.5rem;
+}
+
+.socialList li:nth-child(3) a{
+  background-color: #111111;
+  font-size: 1.3rem;
+}
+
+.socialList li:nth-child(4) a{
+  background-color: #1FB381;
+  font-size: 1.5rem;
+}
+
+.socialList li a i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: top left;
+  transform: scale(1) translate(-50%, -50%);
+  transition: .35s;
+}
+
+.socialList li a i:hover{
+  transform: scale(1.5) translate(-50%, -50%);
+}
+
+/* social link container end */
+
+
+
+.emergency-link,
+.school-location{
+  margin-top: 4.5rem;
+}
+
+.emergency-link ul li a{  
+    text-decoration: none;
+    padding: 15px 0;
+    border-bottom: 1px dashed #8c8b8b;
+    display: block;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.emergency-link ul li a:hover{
+  text-decoration: underline;
+}
+
+/*END TOP FOOTER  */
+
+/* START BOTTOM FOOTER */
+.bottom-footer{
+  background-color: var(--footerBottombg);
+  padding: 1rem 0;
+}
+
+.bottom-footer-start,
+.bottom-footer-center,
+.bottom-footer-end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+
+.bottom-footer-start{
+  color: #fff;
+}
+
+.bottom-footer-start p a{
+  color: yellowgreen;
+}
+
+
+.bottom-footer-center ul li{
+  display: inline-flex;
+  color: #2fe6b8da;
+  
+}
+
+.bottom-footer-center ul li a{
+  display: block;
+  color: #09c2b2;
+  
+}
+
+.bottom-footer-center ul li a:hover{
+  text-decoration: underline;
+  color: #04968a;
+}
+
+.bottom-footer-end a{
+  color: #d7e60b9f;
+  text-decoration: none;
+}
+
+.bottom-footer-end a:hover{
+  text-decoration: underline;
+}
+
+/* BOTTOM FOOTER END */
+/* FOOTER SECTION END */
+
+/***************** END FOOTER SECTION ******************/
